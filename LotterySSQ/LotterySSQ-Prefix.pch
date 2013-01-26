@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'LotterySSQ' target in the 'LotterySSQ' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

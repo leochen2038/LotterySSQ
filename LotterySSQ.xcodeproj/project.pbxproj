@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36F9C8616B3845C00A52DAA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36F9C8516B3845C00A52DAA /* Cocoa.framework */; };
+		B36F9C9016B3845C00A52DAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36F9C8E16B3845C00A52DAA /* InfoPlist.strings */; };
+		B36F9C9216B3845C00A52DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36F9C9116B3845C00A52DAA /* main.m */; };
+		B36F9C9616B3845C00A52DAA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B36F9C9416B3845C00A52DAA /* Credits.rtf */; };
+		B36F9C9916B3845C00A52DAA /* LeoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36F9C9816B3845C00A52DAA /* LeoAppDelegate.m */; };
+		B36F9C9C16B3845D00A52DAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36F9C9A16B3845D00A52DAA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B36F9C8116B3845C00A52DAA /* LotterySSQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotterySSQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36F9C8516B3845C00A52DAA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B36F9C8816B3845C00A52DAA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B36F9C8916B3845C00A52DAA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B36F9C8A16B3845C00A52DAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B36F9C8D16B3845C00A52DAA /* LotterySSQ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LotterySSQ-Info.plist"; sourceTree = "<group>"; };
+		B36F9C8F16B3845C00A52DAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B36F9C9116B3845C00A52DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36F9C9316B3845C00A52DAA /* LotterySSQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LotterySSQ-Prefix.pch"; sourceTree = "<group>"; };
+		B36F9C9516B3845C00A52DAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B36F9C9716B3845C00A52DAA /* LeoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeoAppDelegate.h; sourceTree = "<group>"; };
+		B36F9C9816B3845C00A52DAA /* LeoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeoAppDelegate.m; sourceTree = "<group>"; };
+		B36F9C9B16B3845D00A52DAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36F9C7E16B3845C00A52DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36F9C8616B3845C00A52DAA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36F9C7616B3845C00A52DAA = {
+			isa = PBXGroup;
+			children = (
+				B36F9C8B16B3845C00A52DAA /* LotterySSQ */,
+				B36F9C8416B3845C00A52DAA /* Frameworks */,
+				B36F9C8216B3845C00A52DAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36F9C8216B3845C00A52DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36F9C8116B3845C00A52DAA /* LotterySSQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36F9C8416B3845C00A52DAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36F9C8516B3845C00A52DAA /* Cocoa.framework */,
+				B36F9C8716B3845C00A52DAA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B36F9C8716B3845C00A52DAA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36F9C8816B3845C00A52DAA /* AppKit.framework */,
+				B36F9C8916B3845C00A52DAA /* CoreData.framework */,
+				B36F9C8A16B3845C00A52DAA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B36F9C8B16B3845C00A52DAA /* LotterySSQ */ = {
+			isa = PBXGroup;
+			children = (
+				B36F9C9716B3845C00A52DAA /* LeoAppDelegate.h */,
+				B36F9C9816B3845C00A52DAA /* LeoAppDelegate.m */,
+				B36F9C9A16B3845D00A52DAA /* MainMenu.xib */,
+				B36F9C8C16B3845C00A52DAA /* Supporting Files */,
+			);
+			path = LotterySSQ;
+			sourceTree = "<group>";
+		};
+		B36F9C8C16B3845C00A52DAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36F9C8D16B3845C00A52DAA /* LotterySSQ-Info.plist */,
+				B36F9C8E16B3845C00A52DAA /* InfoPlist.strings */,
+				B36F9C9116B3845C00A52DAA /* main.m */,
+				B36F9C9316B3845C00A52DAA /* LotterySSQ-Prefix.pch */,
+				B36F9C9416B3845C00A52DAA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36F9C8016B3845C00A52DAA /* LotterySSQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36F9C9F16B3845D00A52DAA /* Build configuration list for PBXNativeTarget "LotterySSQ" */;
+			buildPhases = (
+				B36F9C7D16B3845C00A52DAA /* Sources */,
+				B36F9C7E16B3845C00A52DAA /* Frameworks */,
+				B36F9C7F16B3845C00A52DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotterySSQ;
+			productName = LotterySSQ;
+			productReference = B36F9C8116B3845C00A52DAA /* LotterySSQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36F9C7816B3845C00A52DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Leo;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Leo.Chen;
+			};
+			buildConfigurationList = B36F9C7B16B3845C00A52DAA /* Build configuration list for PBXProject "LotterySSQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B36F9C7616B3845C00A52DAA;
+			productRefGroup = B36F9C8216B3845C00A52DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36F9C8016B3845C00A52DAA /* LotterySSQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36F9C7F16B3845C00A52DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36F9C9016B3845C00A52DAA /* InfoPlist.strings in Resources */,
+				B36F9C9616B3845C00A52DAA /* Credits.rtf in Resources */,
+				B36F9C9C16B3845D00A52DAA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36F9C7D16B3845C00A52DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36F9C9216B3845C00A52DAA /* main.m in Sources */,
+				B36F9C9916B3845C00A52DAA /* LeoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B36F9C8E16B3845C00A52DAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36F9C8F16B3845C00A52DAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B36F9C9416B3845C00A52DAA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36F9C9516B3845C00A52DAA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B36F9C9A16B3845D00A52DAA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36F9C9B16B3845D00A52DAA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36F9C9D16B3845D00A52DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B36F9C9E16B3845D00A52DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B36F9CA016B3845D00A52DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LotterySSQ/LotterySSQ-Prefix.pch";
+				INFOPLIST_FILE = "LotterySSQ/LotterySSQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B36F9CA116B3845D00A52DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LotterySSQ/LotterySSQ-Prefix.pch";
+				INFOPLIST_FILE = "LotterySSQ/LotterySSQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36F9C7B16B3845C00A52DAA /* Build configuration list for PBXProject "LotterySSQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36F9C9D16B3845D00A52DAA /* Debug */,
+				B36F9C9E16B3845D00A52DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36F9C9F16B3845D00A52DAA /* Build configuration list for PBXNativeTarget "LotterySSQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36F9CA016B3845D00A52DAA /* Debug */,
+				B36F9CA116B3845D00A52DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36F9C7816B3845C00A52DAA /* Project object */;
+}
